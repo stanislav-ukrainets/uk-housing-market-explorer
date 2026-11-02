@@ -1,0 +1,16 @@
+# Python environment and caches: machine-specific, rebuilt from requirements.txt
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# DuckDB database: an output, rebuilt from data/raw by the pipeline
+*.duckdb
+*.duckdb.wal
+
+# Secrets: never commit (this project has none, this is a safety net)
+.env
+
+# OS clutter
+Thumbs.db
+.DS_Store
